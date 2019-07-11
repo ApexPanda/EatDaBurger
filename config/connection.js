@@ -1,5 +1,7 @@
 var mysql = require('mysql');
 
+JAWSDB_URL='mysql://j3t7omvjfvjftjpd:o5qlll5pc85nftzu@uc13jynhmkss3nve.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/lje9ib0grlb20u5n';
+
 var connection;
 if (process.env.JAWSDB_URL) {
     // Database is JawsDB on Heroku
